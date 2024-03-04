@@ -1,0 +1,53 @@
+
+.gallery{
+    display: flex;
+    align-items: center;
+    column-gap: 230px;
+    overflow-x:scroll;
+    scroll-snap-type: x mandatory;
+    margin-top: 10px;
+    width: 370px;
+    margin-left: 450px;
+    border: 2px solid black;
+    padding: 25px;
+    background-image: url(ba.webp);
+    background-size: cover;
+    touch-action: pan-up;
+
+    
+    
+}
+
+.item{
+    scroll-snap-align: center;
+    min-width: 22%;
+
+} 
+
+.image{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h1{
+    color: #F3980C;
+    font-style: BOLD;
+    font-size: 45PX;
+    text-align: center;
+}
+
+#html{
+    height: 120px;
+    width: 330px;
+    margin-left: 450px;
+    margin-top: 0px;
+}
+
+#css{
+    height: 300px;
+    width: 230px;
+}
+
+
